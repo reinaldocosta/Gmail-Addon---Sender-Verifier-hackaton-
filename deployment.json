@@ -1,0 +1,18 @@
+{
+    "oauthScopes": ["https://www.googleapis.com/auth/gmail.addons.execute"],
+    "addOns": {
+      "common": {
+        "name": "My HTTP Add-on",
+        "logoUrl": "https://raw.githubusercontent.com/webdog/octicons-png/main/black/beaker.png",
+        "homepageTrigger": {
+          "runFunction": "https://us-central1-gtp-reinaldo-study-0001.cloudfunctions.net/loadHomePage"
+        }
+      },
+      "gmail": {},
+      "drive": {},
+      "calendar": {},
+      "docs": {},
+      "sheets": {},
+      "slides": {}
+    }
+  }
